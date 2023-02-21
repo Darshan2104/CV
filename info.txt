@@ -1,0 +1,43 @@
+==================================================================================
+T1 : Identify a text on number plate of vehical
+==================================================================================
+- Summary:
+    -> Main file named : main.py
+        1.) get_number_plate : this function will take image-path as input and from the actual image it will crop a number plate and return it.
+        2.) pre_processing : it will take that croped image of number plate and do a pre_processing (binary thresholding, bilateralFilter) on it and return a optimized image
+        3.) OCR : it will take that optimized image and return a string which has a text(plate number)
+
+
+- library used :
+cv2
+PIL
+pytesseract
+numpy
+
+
+==================================================================================
+T2 : Pothole detection
+==================================================================================
+- Summary:
+    -> There are 2 files
+        1.) main.py : it is for detecting potholes from a video
+        2.) pothole_detection from image : As its name says it is to detect potholes from image to get a better understanding.
+
+- library used :
+cv2
+numpy
+matplotlib
+
+
+==================================================================================
+T3 : vehical color indetification
+==================================================================================
+- Summary:
+    -> There is one main file and one supporting file:
+        1.) main.py : This file has main driving code
+        2.) colors.csv : this file has a mapping between R G B values to respective color name
+
+- library used :
+cv2
+numpy
+pandas
